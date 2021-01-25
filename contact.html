@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact - aoa</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/lightbox.min.css" rel="stylesheet" type="text/css">
+<script src="../js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+
+
+	<div id="contactWrap">
+
+    	<div id="nav">
+        		<a class="name" href="home.html">Alerys Ortiz-Amador</a>
+						<div class="linkscontainer">
+							<a class="links" href="about.html">about</a>
+	            	<a class="links" href="contact.html">contact</a>
+	                <div id="dropdownMain">
+	                	<a class="portfolio" href="#">portfolio</a>
+	            			<div class="dropdown-content">
+	                			<a href="portfolioPages/branding.html">branding</a>
+	                			<a href="portfolioPages/posters.html">posters</a>
+	                			<a href="portfolioPages/3D.html">3D</a>
+	                			<a href="portfolioPages/motion.html">motion</a>
+	                		</div>
+	                </div>
+						</div>
+        </div>
+
+				<div id="mySidepanel" class="sidepanel">
+			  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a class="name" href="../home.html">Alerys Ortiz-Amador</a>
+					<div class="linkscontainer">
+						<a class="links" href="../about.html">about</a>
+							<a class="links" href="../contact.html">contact</a>
+								<div id="dropdownMain">
+									<a class="portfolio" href="#">portfolio</a>
+									<div class="dropdown-content">
+											<a href="../portfolioPages/branding.html">branding</a>
+											<a href="../portfolioPages/posters.html">posters</a>
+											<a href="../portfolioPages/3D.html">3D</a>
+											<a href="../portfolioPages/motion.html">motion</a>
+										</div>
+								</div>
+					</div>
+			</div>
+
+			<button class="openbtn" onclick="openNav()">☰ </button>
+
+
+
+				<div class="contactcontainer">
+				  <form action="contactform.php" method="post">
+				    <h2 >Contact</h2>
+
+				    <input type="text" id="name" name="name" placeholder="Your full name..">
+
+				    <input type="email" id="email" name="email" placeholder="Your e-mail..">
+
+				    <input type="text" id="subject" name="subject" placeholder="Subject.." style="width:100%">
+
+				    <textarea id="message" name="message" placeholder="Message.." style="height:150px"></textarea>
+
+						<!--<button type="submit" name="submit">Submit</button>-->
+				    <input type="submit" value="Submit">
+				  </form>
+				</div>
+
+
+
+</div>
+
+<script>
+function openNav() {
+	document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+
+
+
+</body>
+</html>

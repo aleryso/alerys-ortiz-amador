@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+		font-family:Gangsterbold;
+		src:url("../font/gangstergrotesk-bold.woff");
+		}
+
+@font-face{
+		font-family:Gangsterlight;
+		src:url("../font/gangstergrotesk-light.woff");
+		}
+
+@font-face{
+		font-family:Gangsterregular;
+		src:url("../font/gangstergrotesk-regular.woff");
+		}
+
+@font-face{
+		font-family:AtamiBold;
+		src:url("../font/Atami-Bold.woff");
+		}
+
+@font-face{
+		font-family:AtamiRegular;
+		src:url("../font/Atami-Regular.woff");
+		}
+
+@font-face{
+		font-family:BigJohn;
+		src:url("../font/BIG JOHN.woff");
+		}
+
+body, html {
+	height:100%;
+	margin:0;
+	color:#000000;
+	position:relative;
+	}
+
+/*HOMEPAGE------------------------------------------------------------------------*/
+
+#homeWrap{
+	background:url("../images/mainbkg-01.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+	width:100%;
+	min-height: 784px;
+}
+
+
+#navbkg{
+	/*background-color:#ff2636;*/
+	background-image:url(../images/navbkg-05.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+	width:20%;
+
+	min-height:100%;
+	height:auto;
+	position:fixed;
+	}
+
+#nav{
+	padding-top: 50px;
+	padding-left:30px;
+	z-index:9999;
+	width:150px;
+	}
+
+	@media (max-width: 75em) {
+#nav, #navbkg {
+display: none;
+}
+}
+
+
+.name{
+	font-family:BigJohn;
+	font-size: 3vw;
+	font-style:italic;
+	font-weight: 900;
+	letter-spacing: 1px;
+	}
+
+a{
+	text-decoration:none;
+	color:black;
+	}
+
+#nav a:hover{
+	color:white;
+	transition: 0.3s;
+	}
+
+.linkscontainer{
+	padding-top:20px;
+	display:block;
+}
+
+.links{
+  float:left;
+	font-family:AtamiBold;
+	font-size:25px;
+	padding: 10px 0px 5px 0px;
+	display:block;
+}
+
+.portfolio{
+	float:left;
+	font-family:AtamiBold;
+	font-size:23px;
+	position:relative;
+	display:block;
+	padding-top:10px;
+	}
+
+.dropdown-content{
+	display:none;
+	align:left;
+	padding-top:130px;
+	padding-left: 25px;
+	font-family:AtamiRegular;
+	font-style: italic;
+	font-size: 19px;
+	}
+
+.dropdown-content a {
+	display:block;
+	padding-top:10px;
+	}
+
+#dropdownMain:hover .dropdown-content {
+	display: block;
+	z-index: 1000;
+}
+
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+	display: block;
+}
+
+.sidepanel a {
+  padding: 8px 15px 8px 32px;
+  text-decoration: none;
+
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #ff2736;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ff2736;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.openbtn:hover {
+  background-color:black;
+}
+
+@media (max-width: 75em) {
+.openbtn {
+display: block;
+}
+}
+
+@media (min-width: 75em) {
+.sidepanel {
+display: none;
+
+}
+}
+
+
+/*ABOUTPAGE------------------------------------------------------------------------*/
+
+#aboutWrap{
+	background:url("../images/aboutbkg-11-2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	}
+
+
+
+/*CONTACTPAGE------------------------------------------------------------------------*/
+
+#contactWrap{
+	background:url("../images/contactbkg-07.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+@media (max-width: 70em) {
+#contactWrap {
+	background:url("../images/flatbkg-10.svg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+
+}
+}
+
+.contactcontainer {
+  border-radius: 5px;
+	max-width:580px;
+	min-width: 200px;
+	float:right;
+	position:absolute;
+	top:-30px;
+	right:4%;
+
+}
+
+@media (max-width: 90em) {
+.contactcontainer {
+	margin-top:30px;
+	padding:0 30px 0 30px;
+}
+}
+
+
+h2{
+	font-family:AtamiBold;
+	text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 48%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+	float:left;
+	font-family:AtamiRegular;
+}
+
+input[type=email], select, textarea {
+  width: 48%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+	float:right;
+	font-family:AtamiRegular;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	font-family:AtamiRegular;
+	float:right;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #ff2736;
+}
+
+
+
+#message{
+	width:100%;
+}
+
+/*BRANDINGPAGE------------------------------------------------------------------------*/
+
+/*#brandingWrap{
+
+/*POSTERSPAGE------------------------------------------------------------------------*/
+
+.one{
+	padding-top:50px;
+	padding-left:340px;
+}
+
+.two{
+ padding-left: 700px;
+}
+
+.three{
+	margin-top:-1945px;
+	margin-left:980px;
+}
+
+/*.container{
+	position:relative;
+	width:320px;
+	height:320px;
+	display:inline-block;
+}*/
+
+.container {
+	padding-top:60px;
+	padding-right:65px;
+	width:70%;
+	float:right;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+	grid-template-rows: repeat(1, 300px);
+}
+
+.container > div > img {
+	width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.image{
+	display:block;
+	width:300px;
+	height:300px;
+	border-radius: 3px;
+	position:relative;
+}
+
+.gallery{
+	width:300px;
+	height:300px;
+	position:relative;
+}
+
+.overlay{
+	position:absolute;
+	transition:all .3s ease;
+	opacity:0;
+	background-color:black;
+	border-radius: 3px;
+}
+
+.gallery:hover .overlay{
+	opacity:1;
+}
+
+.text{
+	color:white;
+	font-family:BigJohn;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-size:20px;
+	text-align: center;
+}
+
+.text2{
+	color:black;
+	font-family:BigJohn;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	font-size:20px;
+	text-align: center;
+}
+
+.overlayFade{
+	height:300px;
+	width:300px;
+	top:0;
+	left:0;
+	background-color:black;
+}
+
+.overlayFade2{
+	height:300px;
+	width:300px;
+	top:0;
+	left:0;
+	background-image: url(../images/portfolioImages/preview/previews-01.jpg);
+	background-repeat: no-repeat;
+	position:absolute;
+	display:block;
+	background-size: cover;
+}
+
+.overlayFade3{
+	height:300px;
+	width:300px;
+	top:0;
+	left:0;
+	background-image: url(../images/portfolioImages/preview/previews-02.jpg);
+	background-repeat: no-repeat;
+	position:absolute;
+	display:block;
+	background-size: cover;
+}
+
+
+
+/*3DPAGE------------------------------------------------------------------------*/
+
+/*MOTIONPAGE------------------------------------------------------------------------*/
