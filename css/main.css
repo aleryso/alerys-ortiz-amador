@@ -49,16 +49,16 @@ body, html {
 	background-position:center center;
 	display:block;
 	top:0;
-	position:absolute;;
+	position:absolute;
 	left:0;
 	height:100%;
 	width:100%;
 
 }
 
-/*@media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 /* start of phone styles */
-/*#homeWrap{
+#homeWrap{
 	background:url("../images/mainbkg-mobile-12.jpg") no-repeat fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
@@ -73,7 +73,7 @@ body, html {
 	width:100%;
 
 }
-}*/
+}
 
 
 #navbkg{
@@ -229,7 +229,7 @@ display: none;
 }
 }
 
-/*@media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 	.openbtn, .closebtn {
 	  font-size: 65px;
 
@@ -241,7 +241,7 @@ display: none;
 	  font-size: 35px;
 
 	}
-}*/
+}
 
 
 /*ABOUTPAGE------------------------------------------------------------------------*/
@@ -300,6 +300,7 @@ display: none;
 .contactcontainer{
 	width:90%;
 	height:90%;
+	max-width: 400px;
 
 }
 }
