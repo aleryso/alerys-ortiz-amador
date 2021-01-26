@@ -229,6 +229,20 @@ display: none;
 }
 }
 
+@media screen and (max-width: 479px) {
+	.openbtn, .closebtn {
+	  font-size: 65px;
+
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.sidepanel a {
+	  font-size: 35px;
+
+	}
+}
+
 
 /*ABOUTPAGE------------------------------------------------------------------------*/
 
@@ -279,6 +293,15 @@ display: none;
 	top:-30px;
 	right:4%;
 
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+.contactcontainer{
+	width:90%;
+	height:90%;
+
+}
 }
 
 @media (max-width: 90em) {
