@@ -218,23 +218,23 @@ a{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .openbtn {
 display: block;
-font-size: 110px;
-width:200px;
-height:200px;
+font-size: 150px;
+width:250px;
+height:250px;
 }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel {
 display: none;
-padding-right:250px;
+padding-right:350px;
 
 }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel a {
-	  font-size: 90px;
+	  font-size: 900px;
 		padding-top:15px;
 
 	}
