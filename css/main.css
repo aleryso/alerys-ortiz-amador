@@ -227,8 +227,7 @@ height:180px;
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .closebtn {
 font-size: 100px;
-width:180px;
-height:180px;
+
 }
 }
 
@@ -248,7 +247,7 @@ display: none;
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel {
-		padding-right:50px;
+		padding-right:150px;
 
 	}
 }
