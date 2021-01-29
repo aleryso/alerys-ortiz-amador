@@ -215,7 +215,7 @@ a{
   background-color:black;
 }
 
-@media (max-width: 411px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .openbtn {
 display: block;
 font-size: 110px;
@@ -224,7 +224,7 @@ height:200px;
 }
 }
 
-@media (max-width: 411px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel {
 display: none;
 padding-right:250px;
@@ -232,7 +232,7 @@ padding-right:250px;
 }
 }
 
-@media (max-width: 411px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel a {
 	  font-size: 90px;
 		padding-top:15px;
