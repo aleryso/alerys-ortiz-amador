@@ -224,6 +224,14 @@ height:180px;
 }
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.closebtn {
+font-size: 100px;
+width:180px;
+height:180px;
+}
+}
+
 @media (max-width: 480px) {
 .sidepanel {
 display: none;
@@ -233,7 +241,14 @@ display: none;
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .sidepanel a {
 	  font-size: 60px;
-		padding-top:15px;
+		padding-top:25px;
+
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.sidepanel {
+		padding-right:50px;
 
 	}
 }
