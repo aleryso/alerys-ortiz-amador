@@ -163,7 +163,10 @@ a{
 	z-index: 1000;
 }
 
+
+
 .sidepanel  {
+  width: 0;
   position: fixed;
   z-index: 1;
   height: 100%;
@@ -173,14 +176,13 @@ a{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-	padding-right:150px;
 	display: block;
 }
 
 .sidepanel a {
   padding: 8px 15px 8px 32px;
   text-decoration: none;
-	font-size: 60px;
+
   color: white;
   display: block;
   transition: 0.3s;
@@ -214,31 +216,29 @@ a{
   background-color:black;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 75em) {
 .openbtn {
 display: block;
-font-size: 100px;
-width:250px;
-height:250px;
 }
 }
 
-@media (min-width: 450px) {
+@media (min-width: 75em) {
 .sidepanel {
 display: none;
 
 }
 }
 
-@media (max-width: 450px) {
-	.closebtn {
+@media screen and (max-width: 479px) {
+	.openbtn, .closebtn {
 	  font-size: 65px;
+
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 479px) {
 	.sidepanel a {
-	  font-size: 65px;
+	  font-size: 35px;
 
 	}
 }
