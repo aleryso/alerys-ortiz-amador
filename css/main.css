@@ -224,7 +224,7 @@ height:200px;
 }
 }
 
-@media (min-width: 75em) {
+@media (max-width: 75em) {
 .sidepanel {
 display: none;
 padding-right:250px;
@@ -233,7 +233,7 @@ padding-right:250px;
 }
 
 @media (max-width: 75em) {
-	.sidepanel a {
+.sidepanel a {
 	  font-size: 90px;
 		padding-top:15px;
 
