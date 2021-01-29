@@ -218,23 +218,23 @@ a{
 @media (max-width: 75em) {
 .openbtn {
 display: block;
-font-size: 60px;
-width:100px;
-height:100px;
+font-size: 110px;
+width:200px;
+height:200px;
 }
 }
 
 @media (min-width: 75em) {
 .sidepanel {
 display: none;
-padding-right:150px;
+padding-right:250px;
 
 }
 }
 
-@media screen and (max-width: 75em) {
+@media (max-width: 75em) {
 	.sidepanel a {
-	  font-size: 60px;
+	  font-size: 90px;
 		padding-top:15px;
 
 	}
