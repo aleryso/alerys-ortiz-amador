@@ -204,7 +204,6 @@ a{
   cursor: pointer;
   background-color: #ff2736;
   color: white;
-  padding: 10px 15px;
   border: none;
 	display:none;
 	position:absolute;
@@ -225,6 +224,7 @@ display: block;
 @media (min-width: 75em) {
 .sidepanel {
 display: none;
+padding-right:150px;
 
 }
 }
@@ -238,7 +238,8 @@ display: none;
 
 @media screen and (max-width: 479px) {
 	.sidepanel a {
-	  font-size: 35px;
+	  font-size: 60px;
+		padding-top:15px;
 
 	}
 }
