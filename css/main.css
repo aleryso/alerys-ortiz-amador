@@ -96,7 +96,7 @@ body, html {
 	width:150px;
 	}
 
-	@media (max-width: 75em) {
+	@media @media only screen and (min-device-width : 1200px) {
 	#nav, #navbkg {
 	display: none;
 	}
@@ -215,7 +215,7 @@ a{
   background-color:black;
 }
 
-@media (min-width: 75em) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1200px) {
 .openbtn {
 display: block;
 font-size: 100px;
