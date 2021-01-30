@@ -215,7 +215,7 @@ a{
   background-color:black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-width: 75em) {
 .openbtn {
 display: block;
 font-size: 100px;
@@ -232,7 +232,7 @@ height:100px;
 }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 480px) {
 .sidepanel {
 display: none;
 }
