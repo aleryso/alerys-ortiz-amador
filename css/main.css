@@ -96,7 +96,7 @@ body, html {
 	width:150px;
 	}
 
-	@media @media only screen and (min-device-width : 1200px) {
+	@media only screen and (min-device-width : 1200px) {
 	#nav, #navbkg {
 	display: none;
 	}
@@ -109,11 +109,13 @@ body, html {
 	font-style:italic;
 	font-weight: 900;
 	letter-spacing: 1px;
+	display:block;
 	}
 
 a{
 	text-decoration:none;
 	color:black;
+	display:block;
 	}
 
 #nav a:hover{
@@ -242,6 +244,7 @@ display: none;
 .sidepanel a {
 	  font-size: 60px;
 		padding-top:25px;
+		display:block;
 
 	}
 }
