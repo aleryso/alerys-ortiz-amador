@@ -2,21 +2,6 @@
 /* CSS Document */
 
 @font-face{
-		font-family:Gangsterbold;
-		src:url("../font/gangstergrotesk-bold.woff");
-		}
-
-@font-face{
-		font-family:Gangsterlight;
-		src:url("../font/gangstergrotesk-light.woff");
-		}
-
-@font-face{
-		font-family:Gangsterregular;
-		src:url("../font/gangstergrotesk-regular.woff");
-		}
-
-@font-face{
 		font-family:AtamiBold;
 		src:url("../font/Atami-Bold.woff");
 		}
@@ -42,7 +27,7 @@ body, html {
 /*HOMEPAGE------------------------------------------------------------------------*/
 
 #homeWrap{
-	background:url("../images/mainbkg-02.jpg") no-repeat fixed;
+	background:url("../images/mainbkg.jpg") no-repeat fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -54,13 +39,12 @@ body, html {
 	left:0;
 	height:100%;
 	width:100%;
-
 }
 
 @media screen and (max-width: 39em) {
 /* start of phone styles */
 #homeWrap{
-	background:url("../images/mainbkg-mobile-12.jpg") no-repeat fixed;
+	background:url("../images/mainbkg-mobile.jpg") no-repeat fixed;
 	background-size:cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,18 +56,15 @@ body, html {
 	left:0;
 	height:100%;
 	width:100%;
-
 }
 }
-
 
 #navbkg{
-	/*background-color:#ff2636;*/
-	background-image:url(../images/navbkg-05.jpg);
+	background-image:url(../images/navbkg.jpg);
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	height:100%;
 	width:20%;
 	min-height:100%;
@@ -96,12 +77,11 @@ body, html {
 	width:150px;
 	}
 
-	@media only screen and (max-width : 1180px) {
-	#nav, #navbkg {
+@media only screen and (max-width : 1180px) {
+#nav, #navbkg {
 	display: none;
-	}
-	}
-
+}
+}
 
 .name{
 	font-family:BigJohn;
@@ -164,8 +144,6 @@ a{
 	z-index: 1000;
 }
 
-
-
 .sidepanel  {
   width: 0;
   position: fixed;
@@ -209,8 +187,7 @@ a{
   display:none;
   position:absolute;
   top:0;
-  left:-5;
-	
+  left:-5;	
 }
 
 .openbtn:hover {
@@ -235,64 +212,37 @@ a{
 	width:70px;
 	height:70px;
 	font-size: 25px;
-	/*
-	position:absolute;
-	top:0;
-	left:0;*/
-	
-}
-}
-
-
-
-@media only screen and (min-width : 2em) and (max-width : 39em) {
-.closebtn {
-
-
-}
-}
-
-@media only screen and (min-width : 2em) and (max-width : 39em) {
-.sidepanel {
-	
 }
 }
 
 @media only screen and (min-width : 2em) and (max-width : 39em) {
 .sidepanel a {
-	  	font-size: 30px;
-		padding:25px 0 0 20px;
-		display:block;
-		float:left;
-		clear:both;
-		width:50px;
+	font-size: 30px;
+	padding:25px 0 0 20px;
+	display:block;
+	float:left;
+	clear:both;
+	width:50px;
 	}
 }
 
 @media only screen and (min-width : 39em) and (max-width : 73em) {
 .sidepanel a {
-	  	float:left;
-		display:block;
-		clear:both;
-		width:70px;
+	float:left;
+	display:block;
+	clear:both;
+	width:70px;
 	}
 }
 
 @media only screen and (min-width : 39em) and (max-width : 73em) {
 .sidepanel .name {
-	  font-size:40px;
-	}
-}
-
-@media only screen and (min-width : 39em) and (max-width : 73em) {
-.sidepanel .dropdown-content a{
-	
+	 font-size:40px;
 	}
 }
 
 @media only screen and (min-width : 2em) and (max-width : 39em) {
 .sidepanel .dropdown-content a{
-	
 	font-size:25px;
 	}
 }
@@ -301,7 +251,7 @@ a{
 /*ABOUTPAGE------------------------------------------------------------------------*/
 
 #aboutWrap{
-	background:url("../images/aboutbkg-11-2.jpg") no-repeat center center fixed;
+	background:url("../images/aboutbkg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -309,13 +259,22 @@ a{
 	height:100%;
 	width:100%;
 	}
-
-
+@media only screen and (min-width : 2em) and (max-width : 39em) {
+#aboutWrap{
+	background:url("../images/aboutbkg-mobile.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:100%;
+	width:100%;
+	}
+}
 
 /*CONTACTPAGE------------------------------------------------------------------------*/
 
 #contactWrap{
-	background:url("../images/contactbkg-07.jpg") no-repeat center center fixed;
+	background:url("../images/contactbkg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -327,7 +286,7 @@ a{
 
 @media (max-width: 39em) {
 #contactWrap {
-	background:url("../images/flatbkg-10.svg") no-repeat center center fixed;
+	background:url("../images/flatbkg.svg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -338,25 +297,14 @@ a{
 }
 }
 
-/*@media only screen and (min-width : 39em) and (max-width : 73em) {*/
 .contactcontainer {
-  /*border-radius: 5px;
-	max-width:580px;
-	min-width: 200px;
-	float:right;
-	position:absolute;
-	top:-30px;
-	right:4%;*/
 	position: fixed;
   	top: 27%;
   	right: 3%;
   	transform: translate(-5%, -50%);
 	width:45%;
 	float:right;
-	
-
 }
-
 
 @media only screen and (min-width : 2em) and (max-width : 39em) {
 .contactcontainer{
@@ -366,17 +314,8 @@ a{
   	transform: translate(-50%, -50%);
 	width:85%;
 	height:90%;
-
 }
 }
-
-/*@media (max-width: 90em) {
-.contactcontainer {
-	margin-top:30px;
-	padding:0 30px 0 30px;
-}
-}*/
-
 
 h2{
 	font-family:AtamiBold;
@@ -443,13 +382,6 @@ input[type=submit]:hover {
 	margin-top:-1945px;
 	margin-left:980px;
 }
-
-/*.container{
-	position:relative;
-	width:320px;
-	height:320px;
-	display:inline-block;
-}*/
 
 .container {
 	padding-top:60px;
@@ -559,9 +491,3 @@ input[type=submit]:hover {
 	display:block;
 	background-size: cover;
 }
-
-
-
-/*3DPAGE------------------------------------------------------------------------*/
-
-/*MOTIONPAGE------------------------------------------------------------------------*/
