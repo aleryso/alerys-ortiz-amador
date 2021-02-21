@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>home - aoa</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body style="overflow:hidden;">
@@ -16,7 +17,7 @@
 						<div class="linkscontainer">
 							<a class="links" href="about.html">about</a>
 	            	<a class="links" href="contact.html">contact</a>
-	                <div id="dropdownMain">
+	                <div class="dropdownMain">
 	                	<a class="portfolio" href="#">portfolio</a>
 	            			<div class="dropdown-content">
 	                			<a href="portfolioPages/branding.html">branding</a>
@@ -37,7 +38,7 @@
 				<div class="linkscontainer">
 					<a class="links" href="about.html">about</a>
 						<a class="links" href="contact.html">contact</a>
-							<div id="dropdownMain">
+							<div class="dropdownMain">
 								<a class="portfolio" href="#">portfolio</a>
 								<div class="dropdown-content">
 										<a href="portfolioPages/branding.html">branding</a>
@@ -49,21 +50,18 @@
 				</div>
 		</div>
 
-		<button class="openbtn" onclick="openNav()">☰ </button>
+		<button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
 
 		<script>
 		function openNav() {
-		  document.getElementById("mySidepanel").style.width = "450px";
+		  document.getElementById("mySidepanel").style.width = "300px";
 		}
 
 		function closeNav() {
 		  document.getElementById("mySidepanel").style.width = "0";
 		}
+			
 		</script>
-
-
-
-
 
 
 </body>
