@@ -6,6 +6,10 @@
 	border:1px solid blue;
 }*/
 
+.test{
+	display:none;
+}
+
 @font-face {
   font-family: modystm;
   src: url("../fonts/modystm-webfont.eot"); /* IE9 Compat Modes */
